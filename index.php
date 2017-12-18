@@ -42,7 +42,8 @@
         </div>
 
         <footer class="w3-display-bottommiddle w3-margin-bottom">
-            created by <a href="https://fb.com/baker.zaher">Bakr al7aroon</a>.
+            created by <a href="https://fb.com/baker.zaher">Bakr al7aroon</a> . 
+            <a href="https://github.com/bkrtoni/aaburl">github</a>
         </footer>
     </body>
 </html>
