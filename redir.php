@@ -11,6 +11,8 @@ $cd= htmlspecialchars($_GET['code']);
 //print not found page
 $cd=checkCode($cd);
 if($cd!==false){
+    if(!preg_match("/^https?:\/\//i",$cd)
+       $cd="http://".$cd;
     header("Location: $cd");
 }else ?>
     
